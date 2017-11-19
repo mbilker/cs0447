@@ -25,12 +25,13 @@ main:
 
 	# for(col = 0; col < NUM_COLUMNS; col++) {
 	#    for(row = 0; row < NUM_ROWS; row++) {
-	#        address = get_arr_address(col, row)
+	#        address = get_block_address(col, row)
 	#        Display_FillRect(col * BLOCK_W, row * BLOCK_H, BLOCK_W, BLOCK_H, *address)
 	#    }
 	# }
 
 	# while(true) {
+	#     sleep(15)
 	#     checkInput()
 	#     if(holding_key == KEYDOWN_L)
 	#         print("holding left\n")
