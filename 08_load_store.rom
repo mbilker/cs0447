@@ -4,10 +4,24 @@ v2.0 raw
 # 2) use the poke tool in Logisim and right-click the ROM component
 # 3) select Load Image menu option
 # 4) load the saved file
-1900
+1902
 1A00
+A102
 5101
-6200
-0A00
+5201
+A102
+5101
+5201
+A102
+1900
+9A01
+5101
+9B01
+5101
+9C01
+1901
 0901
-A802
+0A01
+0B01
+0C01
+0000
