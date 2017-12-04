@@ -1,0 +1,43 @@
+v2.0 raw
+# to load this file into Logisim:
+# 1) redirect the output from the assembler to a file
+# 2) use the poke tool in Logisim and right-click the ROM component
+# 3) select Load Image menu option
+# 4) load the saved file
+E300
+DB00
+1C00
+2403
+9404
+5C03
+DC0C
+5C01
+DC11
+5C02
+DC16
+A800
+5B40
+DB00
+C300
+5310
+A81B
+5B47
+DB00
+C300
+5310
+A81B
+5B67
+DB00
+C300
+5310
+A81B
+1C00
+2401
+8904
+4103
+9404
+8A04
+4204
+0A00
+0901
+A800
