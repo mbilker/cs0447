@@ -30,6 +30,14 @@
 	put	r2, 0
 	put	r1, 1 # 3872 / 03AA
 
+	li	r1, 0x55
+	li	r2, 0xAA
+	mul	r1, r2
+	mfhl	r1, 0
+	mfhl	r2, 1
+	put	r2, 0
+	put	r1, 1 # 3872 / 03AA
+
 	li	r1, 0
 	li	r2, 0
 	mul	r1, r2
